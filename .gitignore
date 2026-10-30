@@ -1,0 +1,87 @@
+build/
+out/
+dist/
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.slnx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Build outputs
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.temp
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+*.recipe
+*.log
+*.lastcommand
+*.read.1
+*.write.1
+*.response
+
+# Precompiled headers
+*.pch
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+.DS_Store
+
+# Compiled Object files
+*.o
+*.a
+*.so
+*.dylib
+
+# Zipped / compressed archives
+*.7z
+*.dmg
+*.gz
+*.rar
+*.zip
+
+# Local secrets (copy DbSecrets.example.h to DbSecrets.h and fill in)
+src/DbSecrets.h
